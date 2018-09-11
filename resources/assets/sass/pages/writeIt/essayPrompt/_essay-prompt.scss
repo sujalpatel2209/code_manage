@@ -1,0 +1,53 @@
+.essay-prompt-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+  .essay-prompt-notice {
+    height: 100px;
+    max-height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .notice-wrapper {
+      padding:20px 70px;
+      .notice {
+        font-weight: bold;
+        color: $white;
+      }
+    }
+  }
+  .essay-prompt-row {
+    margin-bottom: 40px;
+    .essay-list-wrapper {
+      padding:30px 0;
+      border-left: 3px solid $app-color;
+      border-right: 3px solid $app-color;
+      border-bottom: 3px solid $app-color;
+      .essaylist {
+        padding:0 20px;
+        min-width: 100px;
+        background-color: $app_green;
+        color: $white;
+        height: 50px;
+        h5 {
+          margin-bottom:0;
+        }
+      }
+      .essaycontent {
+        padding:0 30px;
+        .essay-text {
+          margin-top:22px;
+          margin-bottom:14px;
+        }
+      }
+    }
+  }
+}
+.more-links-wrapper {
+  margin-bottom:30px;
+  .more-links-heading {
+    margin-top:40px;
+    margin-bottom: 32px;
+  }
+  .more-links-section {
+    min-height: 60px;
+  }
+}

@@ -1,0 +1,141 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+// Variables
+@import "variables";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//base
+@import "base/colors";
+@import "base/buttons";
+@import "base/inputs";
+@import "base/radio";
+@import "base/selectbox";
+@import "base/password-strength";
+@import "base/stepper";
+//layouts
+@import "layouts/header";
+@import "layouts/footer";
+//pages
+@import "pages/authentication/step1";
+@import "pages/authentication/step2";
+@import "pages/authentication/login";
+@import "pages/dashboard/dashboard";
+//writeIt
+@import "pages/writeIt/writeIt";
+//gameplan
+@import "pages/writeIt/gamePlan/overallGoals";
+@import "pages/writeIt/gamePlan/overallGoalsQs";
+
+//essay prompt
+@import "pages/writeIt/essayPrompt/essay-prompt";
+@import "pages/writeIt/essayPrompt/successful-essay";
+@import "pages/writeIt/essayPrompt/lets-write-it";
+
+//tips and advices
+@import "pages/tips_and_advices/tips-and-advice";
+
+
+//all basic class which will be used throughout this project and explicitly for this project
+
+#main, .container-basic {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+//typography classes
+.text-white {
+  color: $white !important;
+}
+
+.text-light {
+  font-weight: 300 !important;
+}
+
+.text-regular {
+  font-weight: 400 !important;
+}
+
+.text-semibold {
+  font-weight: 500 !important;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+.text-small {
+  font-size: 12px !important;
+}
+//toggle classes (especially used in sign up)
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+//basic link behavior
+
+a {
+  color: $app-color;
+  &:hover, &:focus, &:active {
+    text-decoration: none !important;
+    color: $app-color;
+  }
+  &.btn-basic {
+    &.btn-basic-lg {
+      min-height: 75px;
+      height: 75px !important;
+      padding-top:20px !important;
+      padding-bottom:20px !important;
+    }
+    &:hover, &:active, &:focus {
+      color: $white;
+    }
+    &.example-essay {
+      margin:0 40px 30px 0;
+      font-size: 16px !important;
+    }
+    &.lets-writeit {
+      background-color: $app_green !important;
+      font-size: 16px !important;
+    }
+    &.more-links {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+//button size
+.large {
+  padding: 25px 35px !important;
+}
+
+//site blue headers (specifically for write it qs steps)
+
+.writeit-blue-header {
+  background-color: $app-color !important;
+  font-weight: normal;
+  font-size: 21px !important;
+  color: $white;
+  min-height: 64px;
+  padding: 27px 40px;
+  text-align: left;
+  border-left: 3px solid transparent !important;
+  border-right: 3px solid transparent !important;
+}
+
+.essay-prompt-blue-header {
+  background-color: $app-color !important;
+  font-weight: normal;
+  font-size: 21px !important;
+  color: $white;
+  min-height: 60px;
+  padding: 20px 40px;
+  text-align: left;
+  border-left: 3px solid transparent !important;
+  border-right: 3px solid transparent !important;
+}

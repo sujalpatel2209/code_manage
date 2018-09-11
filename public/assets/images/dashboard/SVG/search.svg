@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>search@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.5976866,12.4781009 L17.1847929,16.0652071 C17.4939579,16.3743722 17.4939579,16.8756278 17.1847929,17.1847929 C16.8756278,17.4939579 16.3743722,17.4939579 16.0652071,17.1847929 L12.4781009,13.5976866 C11.3323275,14.5019846 9.8854385,15.0416667 8.3125,15.0416667 C4.59608387,15.0416667 1.58333333,12.0289161 1.58333333,8.3125 C1.58333333,4.59608387 4.59608387,1.58333333 8.3125,1.58333333 C12.0289161,1.58333333 15.0416667,4.59608387 15.0416667,8.3125 C15.0416667,9.8854385 14.5019846,11.3323275 13.5976866,12.4781009 Z M12.0014758,11.9001301 C12.9030719,10.9732262 13.4583333,9.70770725 13.4583333,8.3125 C13.4583333,5.47053473 11.1544653,3.16666667 8.3125,3.16666667 C5.47053473,3.16666667 3.16666667,5.47053473 3.16666667,8.3125 C3.16666667,11.1544653 5.47053473,13.4583333 8.3125,13.4583333 C9.70770725,13.4583333 10.9732262,12.9030719 11.9001301,12.0014758 C11.9153233,11.9832876 11.9314601,11.9656209 11.9485405,11.9485405 C11.9656209,11.9314601 11.9832876,11.9153233 12.0014758,11.9001301 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Student-View" transform="translate(-888.000000, -142.000000)">
+            <g id="Key-MatchSection" transform="translate(387.000000, 125.000000)">
+                <g id="Header">
+                    <g id="Search-bar" transform="translate(267.000000, 8.000000)">
+                        <g id="search" transform="translate(233.000000, 8.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="COLOR/-white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="19" height="19"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

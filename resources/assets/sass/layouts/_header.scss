@@ -1,0 +1,35 @@
+.horizontal-ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 8px 0;
+  li {
+    float: left;
+    list-style:none;
+    margin-right: 10px;
+    font-size: 16px;
+    a {
+      color: $base-text-color;
+      &:hover {
+        color: $base-text-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.navbar-basic {
+  .navbar-brand-basic {
+    padding-left: 19px;
+  }
+  .home-logo {
+    width: 70px;
+    height: 55px;
+  }
+  .navbar-nav {
+    .nav-link {
+      color: $white;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}

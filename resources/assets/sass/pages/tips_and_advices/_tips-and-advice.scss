@@ -1,0 +1,78 @@
+.tips-and-advices {
+  .page-title {
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  .tips-content-wrapper {
+    padding-left: 45px;
+    padding-right: 45px;
+    .helpful-tips-wrapper {
+      padding:40px 40px 0;
+    }
+    .session-btn-wrapper {
+      margin-top:30px;
+      margin-bottom:30px;
+    }
+    .tips-text {
+      margin-top:40px;
+      font-size: 18px;
+    }
+  }
+  .opportunity-row {
+    padding-top:70px;
+    padding-bottom:70px;
+    .opportunity-content {
+      padding-left: 45px;
+      padding-right: 45px;
+      font-size: 21px;
+      .opportunity-list-wrapper {
+        padding-left:40px;
+        .opportunity-list {
+          list-style-image: url('https://techforluddites.com/images/leaf_icon.jpg');
+          li {
+            margin-left: 20px;
+            margin-bottom:30px;
+          }
+        }
+      }
+      .other-information {
+        padding-top:34px;
+        padding-bottom:34px;
+      }
+    }
+  }
+  .checklist-wrapper {
+    padding:40px 45px;
+    .checklist-text {
+      font-size: 21px;
+      padding-top:40px;
+      padding-bottom:40px;
+      p {
+        margin-bottom:30px;
+      }
+    }
+    .checklist-img {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+  .things-to-remember-row {
+    min-height: 170px;
+    h1{
+      margin-top:85px;
+      margin-bottom:85px;
+    }
+  }
+  .things-to-remember {
+    padding-top:45px;
+    padding-bottom:45px;
+    ul {
+      padding-left: 60px;
+      li{
+        padding-top:20px;
+        padding-bottom:20px;
+        font-size: 21px;
+      }
+    }
+  }
+}

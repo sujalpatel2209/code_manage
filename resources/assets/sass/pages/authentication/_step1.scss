@@ -1,0 +1,31 @@
+//form toggler nothing else
+.form-toggler {
+  display: none;
+}
+.register-container {
+  padding-top:180px;
+  padding-bottom:60px;
+  .app-basic-heading {
+    color: #555;
+    margin-bottom:15px;
+    .subtext {
+      color: #555;
+      font-size:16px;
+      font-weight: 400;
+    }
+  }
+}
+
+.base-separator {
+  padding-top:25px;
+  padding-bottom:25px;
+}
+//validation error labels
+.validation-error-label {
+  color: $red;
+  font-weight: 500;
+}
+
+.btn-basic {
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+.goals-step-page-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+  .progress-wrapper {
+    padding-top:40px;
+    padding-bottom:40px;
+    .progress-basic {
+      height: 50px;
+      border-radius:30px;
+      .progress-bar-basic {
+        background-color: $app-color;
+        border-radius: 30px;
+      }
+    }
+  }
+  .qs-notice {
+    height: 100px;
+    max-height: 100px;
+    margin-bottom: 40px;
+    .notice-wrapper {
+      padding:20px 70px;
+      .notice {
+        font-weight: bold;
+        color: $white;
+      }
+    }
+  }
+  .questions-row {
+    padding-bottom:50px;
+    .overall-goals-form-step {
+      border-left: 3px solid $app-color;
+      border-right: 3px solid $app-color;
+      border-bottom: 3px solid $app-color;
+      .form-group {
+        margin-bottom:0;
+        &:nth-last-child(2) {
+          border-bottom:0 !important;
+        }
+        &:not(:last-child) {
+          border-bottom: 3px solid $app-color;
+        }
+      }
+      .question-wrapper {
+        padding:40px 40px 0;
+        h3 {
+          margin-bottom:40px;
+          &.post-heading {
+            margin-bottom:8px;
+          }
+        }
+        .label-heading {
+          padding-top:40px;
+          padding-bottom:30px;
+        }
+        .label-text {
+          margin-bottom:8px;
+        }
+        .action-btns-wrapper {
+        }
+        .inputbox-wrapper {
+          .row {
+            padding-bottom: 40px;
+            &.type3row {
+              padding-bottom:0;
+              .padding-bottom40 {
+                padding-bottom:40px;
+              }
+            }
+            .form-control-basic {
+              border-color: $black;
+              &:focus {
+                box-shadow: none !important;
+              }
+            }
+          }
+        }
+      }
+      .step-btn-wrapper {
+        padding-top:30px;
+        padding-bottom:30px;
+      }
+    }
+  }
+}

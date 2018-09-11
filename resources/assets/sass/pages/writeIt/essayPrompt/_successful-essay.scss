@@ -1,0 +1,63 @@
+.more-successful-essay-wrapper {
+  .page-title {
+    height: 125px;
+  }
+  .draft-title {
+    padding-top:30px;
+    padding-bottom: 30px;
+  }
+  .about-successful-essay-wrapper {
+    .about-successful-essay-section {
+      padding: 40px 0;
+      .img-wrapper {
+        padding-left: 45px;
+        padding-right: 35px;
+      }
+      .about-text {
+        font-size: 21px !important;
+      }
+    }
+    .about-more-points-section {
+      padding: 50px 40px;
+      .about-more-points {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          font-size: 21px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .reminder {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding: 0 40px;
+      h2 {
+        margin-bottom: 30px;
+      }
+      .reminder-text {
+        font-size: 21px;
+      }
+    }
+    .sample-essays-table {
+      padding: 40px 0;
+      .sample-essays-table-wrapper {
+        padding: 0 40px;
+        .table-sample-essays {
+          min-height: 160px;
+          table {
+            tr {
+              td, th {
+                padding-top:30px;
+                padding-bottom:30px;
+                height: 80px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

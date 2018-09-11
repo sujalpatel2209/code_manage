@@ -1,0 +1,261 @@
+.user-profile-bg-img {
+  background: url('/assets/images/dashboard/Current-Profile-Background-Image.jpg') no-repeat;
+  background-size: cover;
+}
+.content_wrapper {
+  padding: 32px;
+  .tile-wrapper, .tile-content-wrapper {
+    float: none;
+  }
+  .app-border {
+    border-right: 3px solid $app-color;
+    border-bottom: 3px solid $app-color;
+    border-left: 3px solid $app-color;
+  }
+  .tile-fix {
+    font-weight: normal;
+    font-size: 21px !important;
+    background-color: $app-color !important;
+    color: $white;
+    min-height: 64px;
+    padding: 14px 16px 0 16px;
+    text-align: left;
+    border-left: 3px solid transparent !important;
+    border-right: 3px solid transparent !important;
+    margin-left: -3px;
+    margin-right: -3px;
+    h3 {
+      float: left;
+    }
+    img {
+      float: right;
+      vertical-align: middle;
+    }
+  }
+  .user-profile-pic {
+    margin-top: 20px;
+    .revamp_img {
+      border: 3px solid $app-color;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      display: initial;
+      height: 140px;
+    }
+  }
+  .name-wrapper {
+    padding-top: 20px;
+  }
+}
+  .info-section {
+    p {
+      font-weight: bold;
+      margin-bottom: 8px;
+      span {
+        display: inline-block;
+      }
+    }
+  }
+  .mood-wrapper {
+    p {
+      font-weight: bold;
+      margin-bottom: 8px;
+      span {
+        display: inline-block;
+      }
+    }
+    h2 {
+      margin-bottom: 11px;
+    }
+    margin-top: 24px;
+  }
+  .text-appcolor {
+    color: $app-color !important;
+  }
+  .emoji-wrapper {
+    padding-top: 10px;
+    ul.mood-wrapper-ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        display: inline-block;
+        padding:0 10px;
+        &:before {
+          display: none;
+        }
+        .mood-fix {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+  .test-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 50px;
+  }
+  .bordered-box {
+    border-left: 3px solid $app-color;
+    border-right: 3px solid $app-color;
+    border-bottom: 3px solid $app-color;
+    -webkit-box-shadow: 0 2px 5px 0px rgba(139, 139, 139, 0.75);
+    -moz-box-shadow: 0 2px 5px 0px rgba(139, 139, 139, 0.75);
+    box-shadow: 0 2px 5px 0px rgba(139, 139, 139, 0.75);
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .blue-header {
+    background-color: $app-color !important;
+    font-weight: normal;
+    font-size: 21px !important;
+    color: $white;
+    min-height: 64px;
+    padding: 14px 16px 0 16px;
+    text-align: left;
+    border-left: 3px solid transparent !important;
+    border-right: 3px solid transparent !important;
+    margin-bottom: 24px;
+    h3 {
+      margin-bottom: 1rem;
+      float: left;
+    }
+    img {
+      float: right;
+    }
+  }
+  .keymatch-content-wrapper {
+    padding: 20px 10px;
+    min-height: 460px;
+    max-height: 100%;
+    height: 570px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: 3px solid $app-color;
+    border-right: 3px solid $app-color;
+    border-bottom: 3px solid $app-color;
+    margin-top: 10px;
+  }
+  .keymatch-logos {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: initial;
+    height: auto;
+    max-height: 100px;
+    margin-right: 15px;
+  }
+  .keymatch-text-wrapper {
+    padding: 10px 0;
+    vertical-align: middle;
+  }
+  .notes-wrapper {
+    height: 357px;
+    overflow-y: auto;
+    min-height: 250px;
+    max-height: 100%;
+    padding: 0 16px;
+    margin: 10px 0;
+    table {
+      thead {
+        th {
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+  .text-blue {
+    color: $app-color;
+  }
+  .no-margin-bottom {
+    margin-bottom: -10px !important;
+  }
+  .notes-content {
+    background-color: $notes_background;
+    padding: 20px 5px;
+    .trash-btn {
+      position: absolute;
+      right: 10px;
+      top:10px;
+      .trash-icon {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+  .heading {
+    margin: 2rem 0;
+  }
+  .saved-notes-wrapper {
+    height: 300px;
+    overflow-y: auto;
+    min-height: 250px;
+    max-height: 100%;
+    padding: 0 16px;
+    position: relative;
+    margin: 10px 0;
+  }
+  .write-it-wrapper {
+    height: 150px;
+    overflow-y: auto;
+    min-height: 125px;
+    max-height: 100%;
+    padding: 0 16px;
+    position: relative;
+    margin: 10px 0;
+    table {
+      thead {
+        th {
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+  .brand-u-wrapper {
+    height: 150px;
+    overflow-y: auto;
+    min-height: 125px;
+    max-height: 100%;
+    padding: 0 16px;
+    position: relative;
+    margin: 10px 0;
+    padding-top: 15px;
+  }
+  .text-bold {
+    font-weight: 700;
+  }
+  .text-underline {
+    text-decoration: underline;
+  }
+  .msg-textbox-wrapper {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .msgbox-wrapper {
+    height: 50px;
+    position: relative;
+  }
+  .msgbox {
+    width: 100%;
+    border: 0 !important;
+    border-top: 3px solid $app-color !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    &:focus {
+      border: 0 !important;
+      box-shadow: none;
+      border-color: $app-color !important;
+      border-top: 3px solid $app-color !important;
+      border-bottom: 0 !important;
+      border-right: 0 !important;
+      border-left: 0 !important;
+    }
+  }
+  .btn-wrapper {
+    text-align: left;
+  }

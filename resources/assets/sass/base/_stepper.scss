@@ -1,0 +1,31 @@
+.steps-form-2 {
+  display: table;
+  width: 50%;
+  position: relative;
+  .steps-row-2 {
+    &:before {
+      top: 14px;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 100%;
+      height: 2px;
+      background-color: $stepper_green;
+    }
+    .steps-step-2 {
+      display: table-cell;
+      text-align: center;
+      position: relative;
+      .btn-circle-2 {
+        width: 15px;
+        height: 15px;
+        border: 2px solid $stepper_green;
+        background-color: white !important;
+        color: $stepper_green !important;
+        border-radius: 50%;
+        padding: 0 10px;
+        margin-top: 0;
+      }
+    }
+  }
+}
